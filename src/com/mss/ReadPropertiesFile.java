@@ -15,7 +15,7 @@ import java.util.logging.Logger;
  * @author miracle
  */
 public class ReadPropertiesFile {
-
+//new commit and merge this.
     public void readPropertiesFile() {
         Properties p = new Properties();
         InputStream iStream = null;
