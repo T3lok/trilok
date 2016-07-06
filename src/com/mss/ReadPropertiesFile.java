@@ -23,7 +23,6 @@ public class ReadPropertiesFile {
             iStream = new FileInputStream("config.properties");
 
             p.load(iStream);
-            //priyanka ediited..
 
             System.out.println(p.getProperty("voterId"));
             System.out.println(p.getProperty("voterName"));
