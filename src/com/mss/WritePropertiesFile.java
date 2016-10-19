@@ -1,5 +1,5 @@
 /*
-3 * To change this template, choose Tools | Templates
+ * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
 package com.mss;
@@ -19,7 +19,7 @@ public class WritePropertiesFile {
 
     public static void main(String[] args) {
         Properties p = new Properties();
-        OutputStream oStream = null;//this is gopi commit
+        OutputStream oStream = null;
         try {
             oStream = new FileOutputStream("config.properties");
 
